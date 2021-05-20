@@ -55,4 +55,10 @@ logout
 "the cardID"
 and should the blue LED turn on
 ## Note:
+You need to edit three variable values:
+1. Wifi Name
+2. Wifi Password
+3. IP address of your server(IP address of your computer is also the same)
+4. Add IP address again in Get data section of the code
+5. All the note instructions are commented inside the code file for easy understanding.
 If you don't have extra LEDs then just comment out the lines from starting(Initialising LED pins) till the end wherever you come across LED word in Code
