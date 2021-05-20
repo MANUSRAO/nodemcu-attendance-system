@@ -89,7 +89,7 @@ void loop() {
   
   //GET Data
   getData = "?CardID=" + CardID;  //Note "?" added at front
-  Link = "http://Ip address/loginsystem/postdemo.php" + getData;
+  Link = "http://Ip address/loginsystem/postdemo.php" + getData;  //Add your IP address here
   
   http.begin(Link);
   
